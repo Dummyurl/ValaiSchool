@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeWhole"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:id="@+id/rlTopBar"
+        style="@style/Toolbar"
+        android:background="@color/colorPrimary"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        <TextView
+            android:id="@+id/tvClassName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/img_back"
+            android:layout_toRightOf="@+id/img_back"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlTopBar"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:drawableEnd="@drawable/ic_date_range_24dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/ic_date_range_24dp"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llStu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlDate"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnPresentAll"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorPresentAll"
+            android:gravity="center"
+            android:text="@string/present_all"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnAbsentAll"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorAbsentAll"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/absent_all"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnHalfDayAll"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorHalfDayAll"
+            android:gravity="center"
+            android:text="@string/half_day_all"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llStu" />
+
+    <TextView
+        android:id="@+id/tvNotFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llStu"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/no_information_text"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

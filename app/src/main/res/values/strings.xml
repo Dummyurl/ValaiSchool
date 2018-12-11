@@ -1,0 +1,211 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Valai School</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="userNameHint">User Name</string>
+    <string name="signInBtnText">Sign In</string>
+    <string name="passwordHint">Password</string>
+    <string name="adminText">Admin</string>
+    <string name="parentText">Parent</string>
+    <string name="teacherText">Teacher</string>
+    <string name="login_as">Login as</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="nextBtnText">Next</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_diary">Diary</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_fee">Fee</string>
+    <string name="nav_exam_schedule">Exam Schedule</string>
+    <string name="nav_report_card">Report Card</string>
+    <string name="nav_attendance">Attendance</string>
+    <string name="nav_transport">Transport</string>
+    <string name="nav_holiday">Holiday List</string>
+    <string name="nav_profile">Student Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_mark_entry">Mark Entry</string>
+    <string name="nav_report_card_attendance">Report Card Attendance</string>
+    <string name="nav_student_data">Student Data</string>
+    <string name="nav_time_table">Time Table</string>
+    <string name="nav_lesson_planner">Lesson Planner</string>
+    <string name="nav_pay_slip">Pay Slip</string>
+    <string name="nav_leave_application">Leave Application</string>
+    <string name="circular_text">Circular</string>
+    <string name="assignment_text">Assignment</string>
+    <string name="chat_text">Chat</string>
+    <string name="type_a_message_text">Type a message</string>
+    <string name="payment_text">Payment</string>
+    <string name="receipt_text">Receipt</string>
+    <string name="receipt_number">Receipt No</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="download">Download</string>
+    <string name="fee_type">Fee Type</string>
+    <string name="fee_amount">Fee Amount</string>
+    <string name="paid">Paid</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="balance">Balance</string>
+    <string name="schedule_text">Schedule</string>
+    <string name="result_text">Result</string>
+    <string name="subject">Subject</string>
+    <string name="subject_star">Subject*</string>
+    <string name="mark">Mark</string>
+    <string name="mMark">M.Mark</string>
+    <string name="grade">Grade</string>
+    <string name="select_exam">Select Exam</string>
+    <string name="time">Time</string>
+    <string name="comment">Comment</string>
+    <string name="month">Month</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="total">Total</string>
+    <string name="parents_information">Parents Information</string>
+    <string name="account_settings">Account Setting</string>
+    <string name="current_password">Current Password</string>
+    <string name="changePasswordBtnText">Change Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="date_text">15\nOct</string>
+    <string name="other">Other</string>
+    <string name="personal">Personal</string>
+    <string name="parent">Parent</string>
+    <string name="health">Health</string>
+    <string name="name">Name:</string>
+    <string name="reg_no">Reg No:</string>
+    <string name="class_name">Class:</string>
+    <string name="class_teacher">Class Teacher:</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="address">Address:</string>
+    <string name="f_name">Father Name:</string>
+    <string name="mobile">Mobile:</string>
+    <string name="email">Email:</string>
+    <string name="m_name">Mother Name:</string>
+    <string name="guardian_name">Guardian Name:</string>
+    <string name="blood_group">Blood Group:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="allergy_details">Allergy Details:</string>
+    <string name="allow_storage_permission">Please allow Storage Permission to access this feature</string>
+    <string name="allow_location_permission">Please allow Location Permission to access this feature</string>
+    <string name="allow_settings_permission">Please allow Settings Permission to access this feature</string>
+    <string name="allow_record_permission">Please allow Record Permission to access this feature</string>
+    <string name="enter_user_name">Please Enter User Name</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="date_txt">Date:</string>
+    <string name="time_txt">Time:</string>
+    <string name="invalid_user_name">Invalid User Name</string>
+    <string name="start_date_txt">Start Date:</string>
+    <string name="end_date_txt">End Date:</string>
+    <string name="document">Document</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="record">Record</string>
+    <string name="titleText">Title:-</string>
+    <string name="desText">Description:-</string>
+    <string name="holidays_and_events_are_not_found">No Events</string>
+    <string name="no_information_text">No Information available</string>
+    <string name="give_permission_text">Please allow permission in Settings</string>
+    <string name="internet_not_available">Please check your internet</string>
+    <string name="mark_entry">Mark Entry</string>
+    <string name="reportcard">Report Card Attendance</string>
+    <string name="student_data">Student Data</string>
+    <string name="time_table">Time Table</string>
+    <string name="lesson_planner">Lesson Planner</string>
+    <string name="pay_slip">Pay Slip</string>
+    <string name="leave_application">Leave Application</string>
+    <string name="parent_text">Parent</string>
+    <string name="staff_text">Staff</string>
+    <string name="Next">Next</string>
+    <string name="from">From</string>
+    <string name="from_star">From*</string>
+    <string name="to">To</string>
+    <string name="to_star">To*</string>
+    <string name="chapter">Chapter</string>
+    <string name="sub_chapter">Sub Chapter</string>
+    <string name="title">Title</string>
+    <string name="title_star">Title*</string>
+    <string name="write_essay">Write the essay</string>
+    <string name="send">Send</string>
+    <string name="label_select_picture">Select Picture</string>
+    <string name="cropped">Cropped</string>
+    <string name="label_select_docs">Select Documents</string>
+    <string name="fileSizeMessage">File size too large.</string>
+    <string name="select_class">Please select class</string>
+    <string name="fileNotSelected">File Not Selected</string>
+    <string name="assignment_posted">Assignment Posted Successfully</string>
+    <string name="enter_message_text">Please Enter Some Message</string>
+    <string name="circular">Cir</string>
+    <string name="assignment">Asm</string>
+    <string name="img_">IMG</string>
+    <string name="aud_">AUD</string>
+    <string name="vid_">VID</string>
+    <string name="doc_">DOC</string>
+    <string name="txt_">TXT</string>
+    <string name="recording_in_progress" tools:ignore="TypographyEllipsis">Recording in progress...</string>
+    <string name="recording_started" tools:ignore="TypographyEllipsis">Recording Started...</string>
+    <string name="format_not_supported">Format not supported</string>
+    <string name="gif_">GIF</string>
+    <string name="app_name_images">ValaiSchool Images</string>
+    <string name="app_name_docs">ValaiSchool Document</string>
+    <string name="app_name_audio">ValaiSchool Audio</string>
+    <string name="app_name_video">ValaiSchool Video</string>
+    <string name="app_name_gif">ValaiSchool GIF</string>
+    <string name="select_camera">Select Camera</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="take_video">Take Video</string>
+    <string name="camera_not_support">Your device does not support Camera</string>
+    <string name="select_chapter">Select Chapter</string>
+    <string name="select_sub_chapter">Select Sub Chapter</string>
+    <string name="present_all">All Present</string>
+    <string name="absent_all">All Absent</string>
+    <string name="half_day_all">All Half Day</string>
+    <string name="present_text">P</string>
+    <string name="absent_text">A</string>
+    <string name="half_day_text">H</string>
+    <string name="enter_subject">Please Enter Subject</string>
+    <string name="enter_from_date">Enter From Date</string>
+    <string name="enter_to_date">Enter To Date</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="submit">Submit</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Diary</item>
+        <item>Message</item>
+        <item>Fee</item>
+        <item>Attendance</item>
+        <item>Exam Schedule</item>
+        <item>Transport</item>
+        <item>Holiday List</item>
+        <item>Student Profile</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+
+    </string-array>
+    <string-array name="nav_item_admin_titles">
+        <!--<item>@string/nav_home</item>-->
+        <item>@string/nav_message</item>
+        <item>@string/nav_attendance</item>
+        <!--<item>@string/nav_calendar</item>-->
+        <!--<item>@string/nav_mark_entry</item>-->
+        <!--<item>@string/nav_report_card_attendance</item>-->
+        <!--<item>@string/nav_student_data</item>-->
+        <!--<item>@string/nav_time_table</item>-->
+        <!--<item>@string/nav_lesson_planner</item>-->
+        <!--<item>@string/nav_pay_slip</item>-->
+        <!--<item>@string/nav_leave_application</item>-->
+        <!--<item>@string/nav_change_password</item>-->
+        <item>@string/nav_logout</item>
+
+    </string-array>
+
+    <string-array name="nav_item_staff_titles">
+        <!--<item>@string/nav_home</item>-->
+        <item>@string/nav_message</item>
+        <item>@string/nav_attendance</item>
+        <item>@string/nav_logout</item>
+    </string-array>
+</resources>

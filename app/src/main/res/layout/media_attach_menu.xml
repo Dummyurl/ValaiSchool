@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/reveal_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grey_round_rect"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                tools:ignore="UselessParent">
+
+                <!--Gallery Icon -->
+                <LinearLayout
+                    android:id="@+id/menu1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/document_img_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_document_vector"
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:text="@string/document"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <!--Camera Icon -->
+                <LinearLayout
+                    android:id="@+id/menu2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/photo_img_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_camera_vector"
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:text="@string/camera"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <!--Gallery Icon -->
+                <LinearLayout
+                    android:id="@+id/menu3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/gallery_img_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_camera_vector"
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:text="@string/gallery"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <!--Record Icon -->
+                <LinearLayout
+                    android:id="@+id/menu4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/video_img_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_record_vector"
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:text="@string/record"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+</RelativeLayout>
+
+

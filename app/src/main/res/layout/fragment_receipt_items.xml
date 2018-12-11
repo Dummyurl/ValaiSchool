@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/tv_receiptNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_Date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_Amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/img_Download"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_file_download_black_24dp" />
+</LinearLayout>

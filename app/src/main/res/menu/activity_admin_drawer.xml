@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_home"-->
+            <!--android:icon="@mipmap/home"-->
+            <!--android:title="@string/nav_home" />-->
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/message"
+            android:title="@string/nav_message" />
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@mipmap/attendance"
+            android:title="@string/nav_attendance" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_calendar"-->
+            <!--android:icon="@mipmap/diary"-->
+            <!--android:title="@string/nav_calendar" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_mark_entry"-->
+            <!--android:icon="@mipmap/nav_mark_entry_"-->
+            <!--android:title="@string/nav_mark_entry" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_report_card_attendance"-->
+            <!--android:icon="@mipmap/nav_pie_chart"-->
+            <!--android:title="@string/nav_report_card_attendance" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_student_data"-->
+            <!--android:icon="@mipmap/nav_student_data"-->
+            <!--android:title="@string/nav_student_data" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_time_table"-->
+            <!--android:icon="@mipmap/nav_time_table"-->
+            <!--android:title="@string/nav_time_table" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_lesson_planner"-->
+            <!--android:icon="@mipmap/nav_lesson_planner"-->
+            <!--android:title="@string/nav_lesson_planner" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_pay_slip"-->
+            <!--android:icon="@mipmap/nav_pay_slip"-->
+            <!--android:title="@string/nav_pay_slip" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_leave_application"-->
+            <!--android:icon="@mipmap/leave_form"-->
+            <!--android:title="@string/nav_leave_application" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_change_password"-->
+            <!--android:icon="@mipmap/changepassword"-->
+            <!--android:title="@string/nav_change_password" />-->
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/logout"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeWhole"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:id="@+id/rlTopBar"
+        style="@style/Toolbar"
+        android:background="@color/colorPrimary"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        <TextView
+            android:id="@+id/chat_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_ChatBox"
+        android:layout_below="@+id/rlTopBar" />
+
+    <include
+        layout="@layout/media_attach_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_ChatBox" />
+
+    <LinearLayout
+        android:id="@+id/layout_ChatBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/edittext_chatbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style"
+                android:cursorVisible="true"
+                android:hint="@string/type_a_message_text"
+                android:maxLines="6"
+                android:paddingEnd="35dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="35dp"
+                android:paddingStart="10dp" />
+
+            <requestFocus />
+
+            <ImageButton
+                android:id="@+id/button_chatBox_Attach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:src="@drawable/ic_attach_file" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/button_ChatBox_Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:src="@drawable/ic_send_vector" />
+
+    </LinearLayout>
+</RelativeLayout>

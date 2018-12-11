@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_home"-->
+            <!--android:icon="@mipmap/home"-->
+            <!--android:title="@string/nav_home" />-->
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/message"
+            android:title="@string/nav_message" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@mipmap/attendance"
+            android:title="@string/nav_attendance" />
+
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/logout"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+</menu>
